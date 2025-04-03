@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>first Real Estate Project </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .f-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top mt-0 pt-0">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="logo.jpg" style="width: 100px; height:50px;"></a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <h4 style="color: darkgoldenrod;">The RG Real Estate </h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#clients">Our Clients</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../signup-form.html">Get in trouch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#services">Our Services</a>
+          </li>
+        </ul>
+
+
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search properties here" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Navbar end here-->
+
+
+  <!--lider start from here-->
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Islamabd.webp" alt="Islamabad" class="d-block img-thumbnail" style="width:100%; height: 700px;">
+        <div class="carousel-caption">
+          <h3 style="color: black;">The Capital Teritory Islamabd</h3>
+          <p style="color: black; font-weight: bold;">Enjoy your luxry life in the city of Education Capital Taritory
+            Islamabd, Pakisatn</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Rawalpindi.webp" alt="Rawalpindi" class="d-block img-thumbnail" style="width:100%; height: 700px;">
+        <div class="carousel-caption">
+          <h3>Rawalpindi the City of naturel beauties</h3>
+          <p>Get pleasures from naturel beauties by reserving a luxry palace in Rawalpindi.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Lahore.webp" alt="Lahore" class="d-block img-thumbnail" style="width:100%; height: 700px;">
+        <div class="carousel-caption">
+          <h3>Lahore is the City of beautiful peoples</h3>
+          <p> Keep enjoying by ownering a beautiful home in the city of Colleges, Lahore.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Karachi.webp" alt="Karachi" class="d-block img-thumbnail" style="width:100%; height: 700px;">
+        <div class="carousel-caption">
+          <h3>Karachi is the city of lights and business hub in Pakistan</h3>
+          <p> Grow your business and acheive your goals by living in Karachi </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Peshawar.webp" alt="Peshawar" class="d-block img-thumbnail" style="width:100%; height: 700px;">
+        <div class="carousel-caption">
+          <h3>Peshawar is the city of flowers beauty of nature</h3>
+          <p>Here is your dream location of Pakistan that's called Peshawar.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+  <!--Silider end here-->
+  <div>
+    <h2 id="services" style="padding: 20px; text-align: center; color: darkgoldenrod;"> Find properties in your loved
+      country </h2>
+  </div>
+  <div class="row" style="justify-content: center;">
+    <div class="col-6" style="width: 45%;">
+
+      <div class="card">
+        <img src="Islamabd.webp" class="card-img-top" alt="Islamabad" style="height: 250px;">
+        <div class="card-body">
+          <h5 class="card-title">Islamabd</h5>
+          <p class="card-text">Enjoy your luxry life by sell/purchase or rent in the city of Education the Capital
+            Teritory Islamabd.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-6" style="width: 45%;">
+      <div class="card">
+        <img src="Rawalpindi.webp" class="card-img-top" alt="Rawalpindi" style="height: 250px;">
+        <div class="card-body">
+          <h5 class="card-title">Rawalpindi</h5>
+          <p class="card-text"> Rawalpindi the City of naturel beauties so get pleasures from naturel beauties by
+            reserving a luxry palace in Rawalpindi.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container ms-5">
+    <div class="card-group" style=" width: 107%;">
+      <div class="card mt-4 ms-3">
+        <img src="lahore1.jpg" class="card-img-top" alt="Lahore">
+        <div class="card-body">
+          <h5 class="card-title">Lahore</h5>
+          <p class="card-text">Lahore is the City of beautiful peoples
+            Keep enjoying by ownering a beautiful home in the city of Colleges, Lahore.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mt-4 ms-4">
+        <img src="Karachi.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Karachi</h5>
+          <p class="card-text"> Karachi is the city of lights and business hub in Pakistan. Grow your business and
+            acheive your goals by Selling/Purchasing or rental in Karachi</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mt-4 ms-4">
+        <img src="Peshawar.webp" class="card-img-top" alt="Peshawar">
+        <div class="card-body">
+          <h5 class="card-title">Peshawar</h5>
+          <p class="card-text"> Here is your dream location of Pakistan that's called City of Flowers, Peshawar. You can
+            Sell/purchase or rent here </p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <h2 id="clients" style="padding: 20px; text-align: center; color:royalblue;"> Our Clients </h2>
+  </div>
+
+</div>
+
+<div class="container">
+  
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="h.jpg" alt="Los Angeles" class="d-block" style="width: 25%; height: 150px; margin: 0px auto;">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="h2.jpg" alt="Chicago" class="d-block" style="width: 25%; height: 150px; margin: 0px auto;">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="h3.png" alt="New York" class="d-block" style="width: 25%; height: 150px; margin: 0px auto;">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Carousel Example</h3>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+</div>
+
+</div>
+  <div class="f-divider"></div>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link px-2 text-body-secondary">Our Services</a></li>
+        <li class="nav-item"><a href="#clients" class="nav-link px-2 text-body-secondary">Our Clients</a></li>
+        <li class="nav-item"><a href="../Signup-form.html" class="nav-link px-2 text-body-secondary">SignIn/SignUp</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">All &copy; rights reserved by The RG Real Estate</p>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
